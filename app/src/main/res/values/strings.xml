@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Песенник</string>
+    <string name="searchImageButtonText">Искать</string>
+    <string name="sampleText">Название песни</string>
+
+</resources>
