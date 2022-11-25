@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val recyclerView = findViewById<RecyclerView>(R.id.songReciclerView)
+        val recyclerView = findViewById<RecyclerView>(R.id.songRecyclerView)
 
         recyclerView.layoutManager = LinearLayoutManager(this)
         val data = ArrayList<ItemsForList>()

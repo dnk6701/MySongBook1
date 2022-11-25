@@ -10,7 +10,7 @@ class SongListAdapter(val listOfItem:List<ItemsForList>):RecyclerView.Adapter<So
     {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view, parent)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view, parent, false)
 
         return ViewHolder(view)
     }

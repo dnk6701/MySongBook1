@@ -93,8 +93,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_help" />
 
+
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/songReciclerView"
+        android:id="@+id/songRecyclerView"
         android:layout_width="409dp"
         android:layout_height="673dp"
         android:layout_marginStart="1dp"
